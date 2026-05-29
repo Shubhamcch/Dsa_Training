@@ -1,7 +1,6 @@
 import java.util.*;
-
 public class Same_arr{
-    public static int[] sumArray(int[] arr1, int[] arr2){
+    public static int[] sum(int[] arr1, int[] arr2){
         int[] result = new int[arr1.length];
 
         for (int i = 0; i < arr1.length; i++){
@@ -13,7 +12,7 @@ public class Same_arr{
         int[] arr1 = {1, 2, 3, 4};
         int[] arr2 = {4, 3, 2, 1};
 
-        int[] ans = sumArray(arr1, arr2);
+        int[] ans = sum(arr1, arr2);
         System.out.println(Arrays.toString(ans));
     }
 }

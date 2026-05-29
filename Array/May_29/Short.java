@@ -1,3 +1,5 @@
+// Write a program to find out the shortest distance between two even positive integers in an array arr and print the distance. If there is one or zero even positive integer in the array then return -1.
+
 public class Short{
     public static int calculate(int[] arr){
         int prev = -1;

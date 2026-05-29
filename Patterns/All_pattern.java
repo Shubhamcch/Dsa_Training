@@ -1,5 +1,5 @@
 import java.util.*;
-public class Pat1{
+public class All_pattern{
     public static void main(String[] args){
         // for(int i = 0; i<5; i++){
         //     for(int j = 0; j<5; j++){
